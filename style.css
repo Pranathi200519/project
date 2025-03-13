@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.main {
+    display: flex;
+    
+    height: 100vh;
+}
+.left-panel {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(103, 97, 210);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right-panel {
+    width: 80%;
+    height: 100%;
+    background-color: rgb(241, 233, 233);
+    overflow-y: scroll;
+    padding: 1rem;
+}
+h3{
+    color: #000;
+    font-style: italic;
+    
+}
+p{
+    font-style: italic;
+    color: rgb(10, 10, 10);
+}
+h4{
+    color: rgb(10, 10, 10);
+    font-style: oblique;
+
+}
+.profile{
+    height: 7rem;
+    width: 7rem;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.name{
+    color: white;
+}
+.place{
+    color: white;
+    font-style: normal;
+}
+.icons{
+    list-style-type: none;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-left: -50px ;
+}
+.iconimg{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+}
+.skill-icon {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
